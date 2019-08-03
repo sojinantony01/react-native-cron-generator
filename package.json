@@ -1,17 +1,26 @@
 {
-  "name": "p1",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-cron-generator",
+  "version": "1.0.0",
+  "description": "react native cron generator",
+  "keywords": [
+    "React-native cron generator",
+    "cron builder",
+    "React-native cron"
+  ],
+  "main": "index.js",
+  "author": "Sojin antony",
+  "license": "ISC",
   "scripts": {
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sojinantony01/react-native-cron-generator.git"
+  },
   "dependencies": {
-    "cronstrue": "^1.81.0",
-    "react": "16.8.6",
-    "react-native": "0.60.4",
-    "react-native-picker-select": "^6.3.0"
+    "cronstrue": "^1.81.0"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
@@ -20,8 +29,13 @@
     "babel-jest": "24.8.0",
     "eslint": "6.1.0",
     "jest": "24.8.0",
-    "metro-react-native-babel-preset": "0.54.1",
+    "metro-react-native-babel-preset": "^0.54.1",
     "react-test-renderer": "16.8.6"
+  },
+  "peerDependencies": {
+    "cronstrue": "^1.72.0",
+    "react": "16.8.6",
+    "react-native": "0.60.4"
   },
   "jest": {
     "preset": "react-native"
