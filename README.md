@@ -13,9 +13,9 @@ data = '* * * * * * *'
 npm install react-native-cron-generator
 
 ```
-![alt text](https://github.com/sojinantony01/react-native-cron-generator/blob/master/images/Screenshot_20190803-182207.png)
+![alt text](https://raw.githubusercontent.com/sojinantony01/react-native-cron-generator/master/images/Screenshot_20190803-182207.png)
 
-![alt text](https://github.com/sojinantony01/react-native-cron-generator/blob/master/images/Screenshot_20190803-182149.png)
+![alt text](https://raw.githubusercontent.com/sojinantony01/react-native-cron-generator/master/images/Screenshot_20190803-182149.png)
 
 
 ```
