@@ -1,4 +1,4 @@
-# react-cron-generator
+# react-native-cron-generator
 
 React-native component to generate cron expression
 
@@ -22,7 +22,7 @@ npm install react-native-cron-generator
 ```
 import * as React from 'react';
 import { View, StyleSheet, Dimensions } from 'react-native';
-import Cron from './lib'
+import Cron from 'react-native-cron-generator'
 
 export default class App extends React.Component {
   state = {
